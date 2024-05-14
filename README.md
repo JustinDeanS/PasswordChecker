@@ -10,6 +10,11 @@ Prerequisites
 Before running this script, ensure you have Python installed on your system. Additionally, you'll need the requests module, which can be installed via pip:
 pip install requests
 
+Installation
+Clone this repository to your local machine using:
+git clone https://github.com/JustinDeanS/PasswordChecker.git
+cd PasswordChecker
+
 Run the script from the command line by passing the passwords you want to check as arguments:
 python checkmypassword.py password1 password2 password3
 Replace password1 password2 password3 with the passwords you wish to check. The script will output whether each password was found in data breaches and the number of times it was exposed.
